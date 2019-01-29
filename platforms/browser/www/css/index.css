@@ -32,8 +32,8 @@ body {
         linear,
         left top,
         left bottom,
-        color-stop(0, #A7A7A7),
-        color-stop(0.51, #E4E4E4)
+        color-stop(0, #66FF66),     /* Green */ 
+        color-stop(0.51, #000099)   /* Blue */
     );
     background-attachment:fixed;
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
@@ -68,7 +68,8 @@ body {
                                       /* offset horizontal: half of image width and text area width */
     }
 }
-
+/* Heading on main page */
+/
 h1 {
     font-size:24px;
     font-weight:normal;
@@ -81,7 +82,7 @@ h1 {
 .event {
     border-radius:4px;
     -webkit-border-radius:4px;
-    color:#FFFFFF;
+    color:#FF0000;
     font-size:12px;
     margin:0px 30px;
     padding:2px 0px;
