@@ -41,7 +41,8 @@ var app = {
 
         console.log('Received Event: ' + id);
     }
-    
+};
+
     document.getElementById("setLocalStorage").addEventListener("click", setLocalStorage); 
     document.getElementById("showLocalStorage").addEventListener("click", showLocalStorage); 
     document.getElementById("removeProjectFromLocalStorage").addEventListener 
@@ -69,6 +70,5 @@ var app = {
     function getLocalStorageByKey() {
       console.log(localStorage.key(0));
     }
-};
 
 app.initialize();
