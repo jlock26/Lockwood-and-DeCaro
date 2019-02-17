@@ -24,16 +24,16 @@ body {
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
-    background-color:#E4E4E4;
-    background-image:linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
-    background-image:-webkit-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
-    background-image:-ms-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+    background-color:#800080;
+    background-image:linear-gradient(top, #b71b1b 0%, #800080 51%);
+    background-image:-webkit-linear-gradient(top, #b71b1b 0%, #800080 51%);
+    background-image:-ms-linear-gradient(top, #b71b1b 0%, #800080 51%);
     background-image:-webkit-gradient(
         linear,
         left top,
         left bottom,
-        color-stop(0, #66FF66),     /* Green */ 
-        color-stop(0.51, #000099)   /* Blue */
+        color-stop(0, #41f4cd),     /* Green */ 
+        color-stop(0.51, #8642f4)   /* Blue */
     );
     background-attachment:fixed;
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
@@ -49,9 +49,9 @@ body {
 .app {
     background:url(../img/hawaii.jpg) no-repeat center top; /* 170px x 200px */
     position:absolute;             /* position in the center of the screen */
-    left:50%;
-    top:50%;
-    height:50px;                   /* text area height */
+    left:50%;                      /* percentage away from left side of screen */
+    top:30%;                       /* percentage away from top of screen */
+    height:250px;                   /* text area height */
     width:225px;                   /* text area width */
     text-align:center;
     padding:180px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
@@ -89,11 +89,13 @@ h1 {
     padding:2px 0px;
 }
 
+/* Color and display of device is NOT ready text block */
 .event.listening {
     background-color:#333333;
     display:block;
 }
 
+/* Color and display of device is ready text block */
 .event.received {
     background-color:#4B946A;
     display:none;
