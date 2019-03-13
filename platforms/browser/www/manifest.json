@@ -5,7 +5,7 @@
   "short_name": "HelloCordova",
   "version": "io.cordova.hellocordova",
   "description": "A sample Apache Cordova application that responds to the deviceready event.",
-  "author": "Apache Cordova Team",
+  "author": "Jonathan Lockwood and Anthony de Caro",
   "icons": [],
   "start_url": "index.html"
 }

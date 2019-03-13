@@ -4,7 +4,7 @@
     <mp:PhoneIdentity PhoneProductId="aaff7d10-25cb-11e9-8509-771724e96a69" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
     <Properties>
         <DisplayName>HelloCordova</DisplayName>
-        <PublisherDisplayName>Apache Cordova Team</PublisherDisplayName>
+        <PublisherDisplayName>Jonathan Lockwood and Anthony de Caro</PublisherDisplayName>
         <Logo>images\StoreLogo.png</Logo>
         <Description>A sample Apache Cordova application that responds to the deviceready event.</Description>
     </Properties>
